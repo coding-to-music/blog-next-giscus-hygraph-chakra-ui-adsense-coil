@@ -1,10 +1,11 @@
 {
-  "name": "client",
+  "name": "blog-next-giscus-hygraph-chakra-ui-adsense-coil",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "git add . && git commit -m 'Build' && git push",
     "postbuild": "next-sitemap --config next-sitemap.config.mjs",
     "start": "next start",
     "lint": "next lint"
@@ -30,6 +31,7 @@
     "react-syntax-highlighter": "^15.5.0",
     "reading-time": "^1.5.0",
     "rehype-raw": "^6.1.1",
+    "@vercel/analytics": "^1.0.2",
     "remark-gfm": "^3.0.1"
   },
   "devDependencies": {

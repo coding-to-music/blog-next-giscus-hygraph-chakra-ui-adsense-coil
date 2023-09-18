@@ -1,3 +1,62 @@
+# blog-next-giscus-hygraph-chakra-ui-adsense-coil
+
+# 🚀 Programming blog with Next.js GitHub Giscus Hygraph (formerly GraphCMS), Google Adsense, Coil Ad Monetization, read Medium and Dev.To articles via API 🚀
+
+https://github.com/coding-to-music/blog-next-giscus-hygraph-chakra-ui-adsense-coil
+
+From / By https://github.com/RakeshPotnuru/blog
+
+https://blog.itsrakesh.com/
+
+<!-- <div style="text-align:center;">
+  <img src="/images/chakra.jpg" alt="Image" />
+  <p><em>Chakra Component Library with Next.js</em></p>
+</div> -->
+
+## Node Version:
+
+```java
+nvm use 18
+
+Now using node v18.17.1 (npm v10.1.0)
+```
+
+## Environment variables:
+
+See `.env.example`
+
+```java
+NEXT_PUBLIC_HYGRAPH_CONTENT_API_URL=
+NEXT_PUBLIC_HYGRAPH_AUTH_TOKEN=
+
+NEXT_PUBLIC_GOOGLE_ANALYTICS_MEASUREMENT_ID=
+
+NEXT_PUBLIC_SITE_URL=
+
+NEXT_PUBLIC_GISCUS_REPO=
+NEXT_PUBLIC_GISCUS_REPO_ID=
+NEXT_PUBLIC_GISCUS_CATEGORY=
+NEXT_PUBLIC_GISCUS_CATEGORY_ID=
+
+NEXT_PUBLIC_KOFI_WIDGET_EMBED_URL=
+
+NEXT_PUBLIC_CLOUDINARY_CLOUDNAME=
+
+NEXT_PUBLIC_SUBSTACK_URL=
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/blog-next-giscus-hygraph-chakra-ui-adsense-coil.git
+git push -u origin main
+```
+
 <div id="top"></div>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1c639728-6ada-4eaa-beb6-4bdcb492baa1/deploy-status)](https://app.netlify.com/sites/blog-itsrakesh/deploys)
@@ -14,9 +73,9 @@
     <br />
     <a href="https://blog.itsrakesh.com">View Example</a>
     ·
-    <a href="https://github.com/RakeshPotnuru/Blog/issues">Report Bug</a>
+    <a href="https://github.com/coding-to-music/blog-next-giscus-hygraph-chakra-ui-adsense-coil/issues">Report Bug</a>
     ·
-    <a href="https://github.com/RakeshPotnuru/Blog/issues">Request Feature</a>
+    <a href="https://github.com/coding-to-music/blog-next-giscus-hygraph-chakra-ui-adsense-coil/issues">Request Feature</a>
   </p>
 </div>
 
@@ -177,7 +236,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Twitter - [@rakesh_at_tweet](https://twitter.com/rakesh_at_tweet)
 
-Project Link: [https://github.com/RakeshPotnuru/Blog](https://github.com/RakeshPotnuru/Blog)
+Project Link: [https://github.com/coding-to-music/blog-next-giscus-hygraph-chakra-ui-adsense-coil](https://github.com/coding-to-music/blog-next-giscus-hygraph-chakra-ui-adsense-coil)
 
 Status - [status.itsrakesh.com](https://status.itsrakesh.com)
 
