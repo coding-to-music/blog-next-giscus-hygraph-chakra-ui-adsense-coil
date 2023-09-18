@@ -59,6 +59,69 @@ git remote add origin git@github.com:coding-to-music/blog-next-giscus-hygraph-ch
 git push -u origin main
 ```
 
+## Giscus GitHub Discussion Commenting system
+
+### Instructions
+
+https://hugomods.com/en/blog/2023/05/how-to-configure-giscus/
+
+### Install the Giscus app:
+
+https://github.com/apps/giscus
+
+### Configure the Giscus app for your site:
+
+https://giscus.app/
+
+1 - Page <--> Discussion Mapping 
+2 - Enter the username/reponame
+3 - Discussion Category
+4 - Features
+5 - Theme
+
+Scroll down, view the JSON that is proposed for your site. Adjust the checkboxes as needed
+
+Copy the JSON values and store into the .env values
+
+Here is how the settings are implemented in this website
+
+```java
+// /src/common/components/misc/Comment.jsx
+
+import { Box, Container, Heading, useColorModeValue } from '@chakra-ui/react';
+import Giscus from '@giscus/react';
+
+const CommentBox = () => {
+  const giscusTheme = useColorModeValue('light', 'dark');
+
+  return (
+    <Container maxW={'container.md'} my={10}>
+      <Heading size={'md'}>LEAVE A COMMENT OR START A DISCUSSION</Heading>
+      <Box my={10}>
+        <Giscus
+          repo={process.env.NEXT_PUBLIC_GISCUS_REPO}
+          repoId={process.env.NEXT_PUBLIC_GISCUS_REPO_ID}
+          category={process.env.NEXT_PUBLIC_GISCUS_CATEGORY}
+          categoryId={process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID}
+          mapping="url"
+          reactionsEnabled="1"
+          emitMetadata="0"
+          inputPosition="top"
+          theme={giscusTheme}
+          lang="en"
+          loading="lazy"
+          crossorigin="anonymous"
+        />
+      </Box>
+    </Container>
+  );
+};
+
+export default CommentBox;
+```
+
+## Begin original README.md
+
 <div id="top"></div>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1c639728-6ada-4eaa-beb6-4bdcb492baa1/deploy-status)](https://app.netlify.com/sites/blog-itsrakesh/deploys)
