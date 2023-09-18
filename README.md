@@ -10,6 +10,17 @@ From / By https://github.com/RakeshPotnuru/blog
 
 https://blog.itsrakesh.com/
 
+https://blog.itsrakesh.com/how-to-set-up-your-own-personal-blog-step-by-step-guide
+
+https://hygraph.com/
+
+Clone this blog project  https://app.hygraph.com/clone/13f9db967a6640af82423ad6f304025d?name=itsrakesh-blog  
+
+https://cloudinary.com/
+
+https://coil.com/
+
+
 <!-- <div style="text-align:center;">
   <img src="/images/chakra.jpg" alt="Image" />
   <p><em>Chakra Component Library with Next.js</em></p>
