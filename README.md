@@ -73,11 +73,11 @@ https://github.com/apps/giscus
 
 https://giscus.app/
 
-1 - Page <--> Discussion Mapping 
-2 - Enter the username/reponame
-3 - Discussion Category
-4 - Features
-5 - Theme
+1 - Page <--> Discussion Mapping  
+2 - Enter the username/reponame   
+3 - Discussion Category   
+4 - Features   
+5 - Theme   
 
 Scroll down, view the JSON that is proposed for your site. Adjust the checkboxes as needed
 
