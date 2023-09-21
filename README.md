@@ -2,6 +2,24 @@
 
 # 🚀 Programming blog with Next.js GitHub Giscus Hygraph (formerly GraphCMS), Google Adsense, Coil Ad Monetization, read Medium and Dev.To articles via API 🚀
 
+### Status and Issues (see Issue Tab)
+
+- Can't build, it should work otherwise. 
+- Hygraph cloned schema is set up but photograph url's are not editable.
+- #2 (closed) Giscus - GitHub discussions - is set up
+- #3 (closed) Hygraph account is set up
+- #6 (closed) Google analytics is set up
+- #11 (closed) Substack is set up
+- #4 (open) Hygraph cloned schema is set up but photograph url's are not editable
+- #5 (open) Create a new Hygraph schema for a blog
+- #7 (open) Google Adsense is not set up
+- #8 (open) Ko-fi is set up but needs a Stripe account
+- #9 (open) Create a Stripe account
+- #10 (open) Cloudinary is set up but needs Author image uploaded
+- #12 (open) Build is failing because needs at least one featured post, tags
+- #13 (open) config/site.config.js needs to be modified
+- #14 (open) Coil and ad display is not set up
+
 https://github.com/coding-to-music/blog-next-giscus-hygraph-chakra-ui-adsense-coil
 
 https://blog-next-giscus-hygraph-chakra-ui-adsense-coil.vercel.app
